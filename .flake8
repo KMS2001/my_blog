@@ -1,0 +1,13 @@
+[flake8]
+max-line-length = 79
+exclude =
+    .git,
+    __pycache__,
+    migrations,
+    env,
+    static
+ignore =
+    E203,  # Whitespace before ':'
+    E501,  # Line length errors
+    W503   # Line break occurred before a binary operator
+ 
